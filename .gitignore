@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# large activation caches written by notebook 01 (about 250 MB each)
+pos_acts_*.pt
+neg_acts_*.pt
+
+# raw model replies and judge outputs: they contain model completions for
+# harmful prompts, so only aggregated results are published (see results/)
+replies*/
+judged*/
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
